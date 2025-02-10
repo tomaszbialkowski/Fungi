@@ -175,6 +175,10 @@
   a:focus-visible {
     color: var(--text-brand-light);
   }
+
+  img {
+    border-radius: var(--border-radius-3);
+  }
 }
 
 @layer layout {
@@ -219,50 +223,35 @@
     width: 1px;
   }
 
-  .text-main {
-    color: var(--text-main);
+  .text-center {
+    text-align: center;
   }
-
+  .text-brand {
+    color: var(--text-brand);
+  }
   .text-high-contrast {
     color: var(--text-high-contrast);
   }
 
-  .text-brand {
-    color: var(--text-brand);
-  }
-
-  .text-brand-light {
-    color: var(--text-brand-light);
-  }
-
-  .background-accent-light {
-    background-color: var(--background-accent-light);
-  }
-
-  .background-accent-main {
-    background-color: var(--background-accent-main);
-  }
-
-  .background-accent-dark {
-    background-color: var(--background-accent-dark);
-  }
-
-  .background-extra-light {
-    background-color: var(--background-extra-light);
-  }
-
-  .background-light {
-    background-color: var(--background-light);
+  .section-title {
+    font-size: var(--font-size-heading-regular);
   }
 
   .background-main {
     background-color: var(--background-main);
   }
 
+  .background-light {
+    background-color: var(--background-light);
+  }
+
+  .background-extra-light {
+    background-color: var(--background-extra-light);
+  }
+
   .background-dark {
     background-color: var(--background-dark);
   }
-
   .background-extra-dark {
     background-color: var(--background-extra-dark);
   }
