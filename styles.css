@@ -430,9 +430,11 @@
     background-size: cover;
     background-position: center;
 
-    animation: fade-out forwards;
-    animation-timeline: view();
-    animation-range-start: exit;
+    @supports (animation-timeline: view()) {
+      animation: fade-out forwards;
+      animation-timeline: view();
+      animation-range-start: exit;
+    }
   }
 
   .hero__title {
