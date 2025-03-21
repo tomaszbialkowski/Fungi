@@ -156,7 +156,7 @@
     --border-radius-2: 0.5rem;
     --border-radius-3: 0.75rem;
 
-    @media (prefers-color-scheme: light) {
+    /* @media (prefers-color-scheme: light) {
       --text-main: var(--clr-brown-700);
       --text-high-contrast: var(--clr-brown-900);
 
@@ -168,7 +168,7 @@
       --background-main: var(--clr-brown-300);
       --background-dark: var(--clr-brown-400);
       --background-extra-dark: var(--clr-brown-500);
-    }
+    } */
   }
 }
 
